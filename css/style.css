@@ -1,0 +1,47 @@
+:root {
+    --grad: linear-gradient(
+        var(--prim), var(--sec)
+    );
+    --mainFont: "Ubuntu", sans-serif;
+    --prim: #FF1053;
+    --tert: #6C6EA0;
+    --sec: #66C7F4;
+    --quat: #C1CAD6;
+    --quin: #FFFFFF;
+}
+
+* {box-sizing: border-box;}
+
+/* tags */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(var(--prim), var(--tert), var(--sec), var(--quat), var(--quin));
+}
+
+/* classes */
+
+.banner-image {
+    height: 20vh;
+}
+
+.header-link {
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin: 0.5vh;
+}
+
+.header-link:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* ids */
+
+#header {
+    padding: 10px 0;
+    background-color: var(--prim);
+}
