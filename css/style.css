@@ -27,19 +27,23 @@ body {
 }
 
 .header-link {
-    color: white;
-    border: 1px solid white;
+    color: var(--quin);
+    border: 1px solid var(--quin);
     border-radius: 7px;
     margin: 0.5vh;
 }
 
 .header-link:hover {
-    background-color: white;
-    color: black;
+    background-color: var(--quin);
+    color: var(--tert);
 }
 
 
 /* ids */
+
+#logo {
+    color: var(--quin);
+}
 
 #header {
     padding: 10px 0;
