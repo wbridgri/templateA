@@ -3,11 +3,11 @@
         var(--prim), var(--sec)
     );
     --mainFont: "Ubuntu", sans-serif;
-    --prim: #FF1053;
-    --tert: #6C6EA0;
-    --sec: #66C7F4;
-    --quat: #C1CAD6;
-    --quin: #FFFFFF;
+    --prim: #d74cb4;
+    --tert: #2c093a;
+    --sec: #a80652;
+    --quat: #590c57;
+    --quin: #441261;
 }
 
 * {box-sizing: border-box;}
@@ -37,6 +37,28 @@ body {
     background-color: var(--quin);
     color: var(--tert);
 }
+
+.dropdown {
+    color: var(--quin);
+    border: 1px solid var(--quin);
+    border-radius: 7px;
+}
+
+.dropdown:hover {
+
+    color: var(--tert);
+}
+.dropdown-menu {
+    color: var(--quin);
+    border: 1px solid var(--quin);
+    border-radius: 7px;
+}
+
+.dropdown-menu:hover {
+
+    color: var(--tert);
+}
+
 
 
 /* ids */
